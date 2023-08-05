@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RapidRescue</title>
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <script src="new.js" defer></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="menubtn" onclick="toggleMenu()">
+                <i class="fa fa-bars"></i>
+            </div>
+            <div class="logo">
+                <img src="logo2.png" alt="logo" width="125px">
+            </div>
+            <nav id="menuitem">
+                <ul>
+                    <li><a href="./main.html"><i class="fa fa-home mainicons" aria-hidden="true"></i>
+                        Home</a></li>
+                    <li>
+                        <a href="#precautions"><i class="fa fa-medkit mainicons" aria-hidden="true"></i> Precautions
+                        </a>
+                    </li>
+                    <li>
+                        </i><a href="#map"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                            Map</a></li>
+                    <li><a href="#helpline"><i class="fa fa-exclamation-triangle mainicons" aria-hidden="true"></i>Helpline Numbers</a></li>
+                    <li>
+                        <a href="#donate"> <i class="fa fa-heart mainicons" aria-hidden="true"></i>Donate</a>
+                    </li>
+                    <li><a href="#contact"><i class="fa fa-phone" aria-hidden="true"></i>
+                        Contact us</a></li>
+                    <li>
+                        <a href="./login.html"> <i class="fa fa-sign-in" aria-hidden="true"></i> LOGIN</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row">
+
+            <h1>Your Disaster Management Resource</h1>
+            <h2>Disasters won't wait, neither should you!!</h2>
+            <a href="#precautions" class="btn">Explore Now <i class="fa fa-arrow-right icon"></i></a>
+
+        </div>
+
+    </div>
+
+
+    <!--precautions-->
+    <div class="precautions" id="precautions">
+
+        <h1> Preventive Measures for Different Emergencies</h1>
+        <div class="disaster">
+            <h3>Natural Disasters</h3>
+        </div>
+
+        <div class="row1">
+
+            <div class="carousel" data-flickity='{ "freeScroll": true, "wrapAround": true }'>
+                <div class="carousel-cell">
+                    <div class="col1">
+
+                        <img src="earthquake.jpg">
+                        <div class="data">
+                            <h2>Earthquake</h2>
+                            <h3>What Should You Do Before Earthquake?</h3>
+                            <ul>
+                                <li>Secure heavy furniture and appliances to walls to prevent tipping</li>
+                                <li>Create an emergency plan and designate meeting points</li>
+                                <li>Know how to shut off gas, water, and electricity</li>
+                            </ul>
+                            <h3>What Should You Do During Earthquake?</h3>
+                            <ul>
+                                <li>"Drop, Cover, and Hold On" during the shaking</li>
+                                <li>Stay away from windows, glass, and exterior walls</li>
+                                <li>If indoors, stay indoors; if outdoors, find an open area away from buildings, trees, and power lines</li>
+                            </ul>
+                            <h3>How Can You Stay Safe After Earthquake?</h3>
+                            <ul>
+                                <li>Check for injuries and administer first aid</li>
+                                <li>Beware of aftershocks and potential building damage</li>
+                                <li>Listen to emergency broadcasts for updates and evacuation orders</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="col1">
+
+                        <img src="huricane.jpg">
+                        <div class="data">
+                            <h2>Hurricane</h2>
+                            <h3>What Should You Do Before Hurricane?</h3>
+                            <ul>
+                                <li>Secure windows and doors with storm shutters or plywood</li>
+                                <li>Trim trees and shrubs to reduce flying debris</li>
+                                <li>Stock up on essentials, including water, non-perishable food, and medications</li>
+                            </ul>
+                            <h3>What Should You Do During Hurricane?</h3>
+                            <ul>
+                                <li>Stay inside and away from windows</li>
+                                <li>If advised, evacuate to higher ground or a designated shelter</li>
+                                <li>Follow local authorities' instructions and listen to weather updates</li>
+                            </ul>
+                            <h3>How Can You Stay Safe After Hurricane?</h3>
+                            <ul>
+                                <li>Wait for the all-clear from authorities before venturing outside</li>
+                                <li>Avoid flooded areas and downed power lines</li>
+                                <li>Check on neighbors and assist those in need if it is safe to do so</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="col1">
+
+                        <img src="tornado.jpg">
+                        <div class="data">
+                            <h2>Tornado</h2>
+                            <h3>What Should You Do Before Tornado?</h3>
+                            <ul>
+                                <li>Identify a safe room or storm shelter in your home</li>
+                                <li>Have a battery-operated weather radio for alerts
+                                </li>
+                                <li>Clear yard of loose objects that can become projectiles</li>
+                            </ul>
+                            <h3>What Should You Do During Tornado?</h3>
+                            <ul>
+                                <li>Seek shelter immediately in a basement or interior room without windows</li>
+                                <li>Cover yourself with a mattress or heavy blankets to protect against flying debris
+                                </li>
+                                <li>Do not try to outrun a tornado in a vehicle</li>
+                            </ul>
+                            <h3>How Can You Stay Safe After Tornado?</h3>
+                            <ul>
+                                <li>Watch out for hazards like broken glass and downed power lines</li>
+                                <li>Use caution when entering damaged buildings</li>
+                                <li>Report gas leaks or damaged utility lines to authorities</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="col1">
+
+                        <img src="fire1.jpg">
+                        <div class="data">
+                            <h2>Wildfires</h2>
+                            <h3>What Should You Do Before Wildfires?</h3>
+                            <ul>
+                                <li>Create a defensible space around your home by clearing flammable vegetation</li>
+                                <li>Have an evacuation plan and emergency kit ready</li>
+                                <li>Keep gutters, roofs, and decks clear of leaves and debris
+                                </li>
+                            </ul>
+                            <h3>What Should You Do During Wildfires?</h3>
+                            <ul>
+                                <li>Evacuate early if advised by authorities</li>
+                                <li>Close all windows and doors to prevent embers from entering the house</li>
+                                <li>Stay tuned to local news and weather updates</li>
+                            </ul>
+                            <h3>How Can You Stay Safe After Wildfires?</h3>
+                            <ul>
+                                <li>Wait for authorities to declare it safe before returning home</li>
+                                <li>Check for hidden embers or hotspots around your property</li>
+                                <li>Be cautious of ash, smoke, and damaged structures</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="col1">
+
+                        <img src="flood.jpg">
+                        <div class="data">
+                            <h2>Flood</h2>
+                            <h3>What Should You Do Before Flood?</h3>
+                            <ul>
+                                <li>Know your area's flood risk and elevation</li>
+                                <li>Elevate electrical systems and appliances above potential flood levels</li>
+                                <li>Purchase flood insurance if you live in a high-risk area</li>
+                            </ul>
+                            <h3>What Should You Do During Flood?</h3>
+                            <ul>
+                                <li>Evacuate if necessary and move to higher ground</li>
+                                <li>Avoid walking or driving through floodwaters</li>
+                                <li>Disconnect electrical appliances and turn off utilities if flooding is imminent</li>
+                            </ul>
+                            <h3>How Can You Stay Safe After Flood?</h3>
+                            <ul>
+                                <li>Avoid returning home until authorities declare it safe</li>
+                                <li>Check for structural damage and potential hazards</li>
+                                <li>Take photos of damages for insurance claims</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="col1">
+
+                        <img src="tsunami.jpg" alt="">
+                        <div class="data">
+                            <h2>Tsunami</h2>
+                            <h3>What Should You Do Before Tsunami?</h3>
+                            <ul>
+                                <li>Familiarize yourself with tsunami evacuation routes</li>
+                                <li>Have a designated meeting place for family members</li>
+                                <li>Know the natural signs of an impending tsunami, such as the water receding rapidly
+                                </li>
+                            </ul>
+                            <h3>What Should You Do During Tsunami?</h3>
+                            <ul>
+                                <li>Move to higher ground immediately if you feel an earthquake or receive a tsunami warning
+                                </li>
+                                <li>Stay tuned to emergency broadcasts for updates</li>
+                            </ul>
+                            <h3>How Can You Stay Safe After Tsunami?</h3>
+                            <ul>
+                                <li>Stay away from coastal areas until authorities declare them safe</li>
+                                <li>Be cautious of potential aftershocks</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="col1">
+
+                        <img src="volcano.jpg">
+                        <div class="data">
+                            <h2>Volcanic Eruption</h2>
+                            <h3>What Should You Do Before Volcanic Eruption?</h3>
+                            <ul>
+                                <li>Be aware of the nearest evacuation routes and shelters</li>
+                                <li>Have a mask to protect against ash inhalation</li>
+                                <li>Keep a battery-operated radio for updates</li>
+                            </ul>
+                            <h3>What Should You Do During Volcanic Eruption?</h3>
+                            <ul>
+                                <li>Follow evacuation orders promptly</li>
+                                <li>Stay indoors and keep windows and doors closed to prevent ash from entering</li>
+                                <li>If caught outside, wear protective clothing and goggles</li>
+                            </ul>
+                            <h3>How Can You Stay Safe After Volcanic Eruption?</h3>
+                            <ul>
+                                <li>Check for injuries and administer first aid</li>
+                                <li>Clean off ash carefully, as it can be abrasive and harmful if inhaled</li>
+                                <li>Protect water sources from ash contamination</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="col1">
+
+                        <img src="heatwaves.jpg">
+                        <div class="data">
+                            <h2>Heatwaves</h2>
+                            <h3>What Should You Do Before Heatwaves?</h3>
+                            <ul>
+                                <li>Stay informed about heatwave warnings and forecasts</li>
+                                <li>Stock up on water and electrolyte-rich beverages</li>
+                                <li>Use fans or air conditioning to cool indoor spaces
+                                </li>
+                            </ul>
+                            <h3>What Should You Do During Heatwaves?</h3>
+                            <ul>
+                                <li>Stay indoors during peak heat hours (usually midday)</li>
+                                <li>Avoid strenuous outdoor activities</li>
+                                <li>Stay hydrated and wear lightweight, light-colored clothing</li>
+                            </ul>
+                            <h3>How Can You Stay Safe After Heatwaves?</h3>
+                            <ul>
+                                <li>Continue to stay hydrated and avoid exertion</li>
+                                <li>Check on vulnerable individuals, such as the elderly and young children</li>
+                                <li>Watch for signs of heat-related illnesses</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="col1">
+
+                        <img src="drought.jpg">
+                        <div class="data">
+                            <h2>Drought</h2>
+                            <h3>What Should You Do Before Drought?</h3>
+                            <ul>
+                                <li>Conserve water by fixing leaks and using water-saving appliances</li>
+                                <li>Plant drought-resistant vegetation</li>
+                                <li>Have a plan for watering essential plants</li>
+                            </ul>
+                            <h3>What Should You Do During Drought?</h3>
+                            <ul>
+                                <li>Follow local water restrictions and conservation guidelines</li>
+                                <li>Limit outdoor water usage</li>
+                                <li>Be mindful of fire risks due to dry conditions</li>
+                            </ul>
+                            <h3>How Can You Stay Safe After Drought?</h3>
+                            <ul>
+                                <li>Continue water conservation efforts even after the drought ends</li>
+                                <li>Replenish soil moisture through appropriate irrigation methods</li>
+                                <li>Stay informed about the recovery of water sources</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="precautions9">
+        <div class="disaster9">
+            <h1>Manmade Disasters</h1>
+        </div>
+        <div class="row9">
+
+            <div class="carousel9" data-flickity='{ "freeScroll": true, "wrapAround": true }'>
+                <div class="carousel-cell0">
+                    <div class="col9">
+
+                        <img src="fire.jpg">
+                        <div class="data">
+                            <h2>Fire</h2>
+                            <h3>What Should You Do Before Fire?</h3>
+                            <ul>
+                                <li>Install smoke detectors and fire extinguishers in key areas of your home or workplace
+                                </li>
+                                <li>Develop a fire escape plan with multiple exit routes</li>
+                                <li>Keep flammable materials away from heat sources</li>
+                            </ul>
+                            <h3>What Should You Do During Fire?</h3>
+                            <ul>
+                                <li>If a small fire breaks out and you're confident, use a fire extinguisher to put it out
+                                </li>
+                                <li>If the fire is spreading or you can't control it, evacuate immediately</li>
+                                <li>Crawl low under smoke to minimize inhalation</li>
+                            </ul>
+                            <h3>How Can You Stay Safe After Fire?</h3>
+                            <ul>
+                                <li>Do not re-enter the building until authorities confirm it is safe</li>
+                                <li>Report any missing persons and provide relevant information to rescue teams</li>
+                                <li>Cooperate with investigators to determine the cause of the fire</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell9">
+                    <div class="col9">
+
+                        <img src="industrial.JPG">
+                        <div class="data">
+                            <h2>Industrial Accidents</h2>
+                            <h3>What Should You Do Before Industrial Accidents?</h3>
+                            <ul>
+                                <li>Stay informed about industrial facilities in your area and their potential hazards
+                                </li>
+                                <li>Understand the emergency protocols and evacuation plans at your workplace</li>
+                                <li>Use personal protective equipment (PPE) as required</li>
+                            </ul>
+                            <h3>What Should You Do During Industrial Accidents?</h3>
+                            <ul>
+                                <li>Follow evacuation orders and emergency protocols immediately</li>
+                                <li>Seek shelter in safe areas, if available, and stay away from the accident site
+                                </li>
+                                <li>If exposed to hazardous substances, follow decontamination procedures</li>
+                            </ul>
+                            <h3>How Can You Stay Safe After Industrial Accidents?</h3>
+                            <ul>
+                                <li>Seek medical attention if you suspect exposure to hazardous materials</li>
+                                <li>Follow instructions from authorities regarding re-entry to the affected area
+                                </li>
+                                <li>Cooperate with investigations to understand the cause of the accident</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-cell9">
+                    <div class="col9">
+
+                        <img src="terror.jpg">
+                        <div class="data">
+                            <h2>Terrorist Attacks</h2>
+                            <h3>What Should You Do Before Terrorist Attacks?</h3>
+                            <ul>
+                                <li>Stay informed about potential threats and emergency alerts in your area</li>
+                                <li>Be vigilant and report suspicious activities to law enforcement
+                                </li>
+                                <li>Know evacuation routes and safe meeting points</li>
+                            </ul>
+                            <h3>What Should You Do During Terrorist Attacks?</h3>
+                            <ul>
+                                <li>If there's an active shooter, run, hide, or fight as a last resort if trapped
+                                </li>
+                                <li>In the event of a bomb threat, evacuate the area immediately</li>
+                                <li>Follow the instructions of law enforcement and emergency responders</li>
+                            </ul>
+                            <h3>How Can You Stay Safe After Terrorist Attacks?</h3>
+                            <ul>
+                                <li>Stay away from the affected area until authorities declare it safe</li>
+                                <li>Report any unattended bags or suspicious items to law enforcement</li>
+                                <li>Offer support to victims and those affected by the attack</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-cell9">
+                    <div class="col9">
+
+                        <img src="cyber-attacks.jpg">
+                        <div class="data">
+                            <h2>Cyber Attacks</h2>
+                            <h3>What Should You Do Before Cyber Attacks?</h3>
+                            <ul>
+                                <li>Use strong, unique passwords for online accounts and enable two-factor authentication
+                                </li>
+                                <li>Regularly back up important data and store it securely</li>
+                                <li>Keep your computer's operating system and software up to date
+                                </li>
+                            </ul>
+                            <h3>What Should You Do During Cyber Attacks?</h3>
+                            <ul>
+                                <li>If you suspect a cyber attack, disconnect from the internet and other networks
+                                </li>
+                                <li>Contact your IT department or a cybersecurity professional for assistance</li>
+                                <li>Avoid clicking on suspicious links or downloading unknown attachments</li>
+                            </ul>
+                            <h3>How Can You Stay Safe After Cyber Attacks?</h3>
+                            <ul>
+                                <li>Report the cyber attack to the appropriate authorities or your IT department
+                                </li>
+                                <li>Change all passwords and review your accounts for unauthorized access</li>
+                                <li>Take steps to strengthen your cybersecurity defenses</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell9">
+                    <div class="col9">
+
+                        <img src="chem.jpg">
+                        <div class="data">
+                            <h2>Chemical Spills</h2>
+                            <h3>What Should You Do Before Chemical Spills?</h3>
+                            <ul>
+                                <li>Know the hazardous materials present in your area and their potential risks</li>
+                                <li>Familiarize yourself with emergency response plans for chemical spills</li>
+                                <li>Keep a supply of personal protective equipment (PPE) at home and work</li>
+                            </ul>
+                            <h3>What Should You Do During Chemical Spills?</h3>
+                            <ul>
+                                <li>Evacuate the area immediately if there's a chemical spill</li>
+                                <li>If unable to evacuate, seek shelter in a safe and well-ventilated area</li>
+                                <li>Avoid contact with spilled substances and contaminated areas</li>
+                            </ul>
+                            <h3>How Can You Stay Safe After Chemical Spills?</h3>
+                            <ul>
+                                <li>Follow decontamination procedures if exposed to hazardous chemicals</li>
+                                <li>Stay away from the affected area until it's declared safe by authorities</li>
+                                <li>Cooperate with cleanup and containment efforts</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell9">
+                    <div class="col9">
+
+                        <img src="building.jpg">
+                        <div class="data">
+                            <h2>Building Collapse</h2>
+                            <h3>What Should You Do Before Building Collapse?</h3>
+                            <ul>
+                                <li>Regularly inspect buildings for structural integrity and maintenance issues</li>
+                                <li>Identify safe areas within buildings in case of collapse</li>
+                                <li>Keep an emergency kit with essential supplies at home and work</li>
+                            </ul>
+                            <h3>What Should You Do During Building Collapse?</h3>
+                            <ul>
+                                <li>If you're inside a collapsing building, seek shelter under sturdy furniture or against an interior wall</li>
+                                <li>Cover your head and neck to protect against falling debris</li>
+                                <li>Use a whistle or shout to alert rescuers to your location</li>
+                            </ul>
+                            <h3>How Can You Stay Safe After Building Collapse?</h3>
+                            <ul>
+                                <li>Do not re-enter a collapsed building until it's deemed safe by authorities</li>
+                                <li>Notify emergency services if you hear someone trapped in the rubble</li>
+                                <li>Cooperate with rescue teams and provide any useful information</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell9">
+                    <div class="col9">
+
+                        <img src="Transportation Accidents.jpg">
+                        <div class="data">
+                            <h2>Transportation Accidents</h2>
+                            <h3>What Should You Do Before Transportation Accidents?</h3>
+                            <ul>
+                                <li>Familiarize yourself with emergency procedures and exits when using public transport
+                                </li>
+                                <li>Use seat belts and other safety devices when traveling by car or bus</li>
+                                <li>Have emergency contact numbers saved on your phone</li>
+                            </ul>
+                            <h3>What Should You Do During Transportation Accidents?</h3>
+                            <ul>
+                                <li>Follow crew instructions and emergency procedures during a transportation incident
+                                </li>
+                                <li>Stay calm and assist others if possible without putting yourself in danger</li>
+                                <li>Use escape routes and emergency exits as directed</li>
+                            </ul>
+                            <h3>How Can You Stay Safe After Transportation Accidents?</h3>
+                            <ul>
+                                <li>Evacuate the area following the guidance of transportation staff or first responders
+                                </li>
+                                <li>Seek medical attention if injured or if you feel unwell after an accident</li>
+                                <li>Cooperate with investigators to provide information about the incident</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--map-->
+    <div class="maps">
+        <h1>Discover nearby hospitals for you!</h1>
+        <div class="search-data">
+            <input type="text" id="searchInput" placeholder="Enter location name">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <table id="dataTable">
+            <th>
+                <td>Location</td>
+            </th>
+            <!-- Table headers will be added dynamically -->
+        </table>
+
+
+    </div>
+    <div class="map-container">
+        <div id="map"></div>
+        <button id="addLocationBtn">Add Your Location</button>
+    </div>
+
+    <!--helpline-->
+    <div class="helpline" id="helpline">
+        <h1>EMERGENCY HELPLINES</h1>
+        <h2>In case of an emergency, please dial:</h2>
+        <div class="emergencydata">
+            <h3>Emergency Services</h3>
+            <div class="data1">
+                <div class="upper">
+                    Police, Fire, Medical
+                </div>
+                <div class="lower">
+                    112
+                </div>
+                <div class="upper">
+                    Police Helpline
+                </div>
+                <div class="lower">
+                    100
+                </div>
+                <div class="upper">
+                    Fire and Rescue
+                </div>
+                <div class="lower">
+                    101
+                </div>
+                <div class="upper">
+                    Medical Emergency
+                </div>
+                <div class="lower">
+                    108
+                </div>
+
+            </div>
+        </div>
+        <div class="emergencydata">
+            <h3>Disaster Management</h3>
+            <div class="data1">
+                <div class="upper">
+                    Disaster Management Helpline
+                </div>
+                <div class="lower">
+                    1070 / 1077 / 112
+                </div>
+            </div>
+        </div>
+        <div class="emergencydata">
+            <h3>Support Helplines</h3>
+            <div class="data1">
+                <div class="upper">
+                    Women's Helpline
+                </div>
+                <div class="lower">
+                    181
+                </div>
+                <div class="upper">
+                    Child Helpline
+                </div>
+                <div class="lower">
+                    1098
+                </div>
+                <div class="upper">
+                    Senior Citizens Helpline
+                </div>
+                <div class="lower">
+                    14567
+                </div>
+            </div>
+        </div>
+        <div class="emergencydata">
+            <h3>Health and Safety</h3>
+            <div class="data1">
+                <div class="upper">
+                    National Anti-Poison Helpline
+                </div>
+                <div class="lower">
+                    011-1066
+                </div>
+                <div class="upper">
+                    National AIDS Helpline
+                </div>
+                <div class="lower">
+                    1097
+                </div>
+                <div class="upper">
+                    COVID-19 Helpline
+                </div>
+                <div class="lower">
+                    011-23978046
+                </div>
+            </div>
+        </div>
+        <div class="emergencydata">
+            <h3>Mental Health Support</h3>
+            <div class="data1">
+                <div class="upper">
+                    National Mental Health Helpline
+                </div>
+                <div class="lower">
+                    1800-599-0019
+                </div>
+                <div class="upper">
+                    Suicide Prevention Helpline
+                </div>
+                <div class="lower">
+                    022-2775 9090
+                </div>
+            </div>
+        </div>
+        <div class="emergencydata">
+            <h3>Other Helplines</h3>
+            <div class="data1">
+                <div class="upper">
+                    Road Accident Emergency Service
+                </div>
+                <div class="lower">
+                    1033
+                </div>
+                <div class="upper">
+                    Railway Security Helpline
+                </div>
+                <div class="lower">
+                    182
+                </div>
+                <div class="upper">
+                    Women Helpline for Domestic Abuse
+                </div>
+                <div class="lower">
+                    181
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!---donate-->
+    <div class="donate" id="donate">
+        <h1>Give Hope, Make a Difference!!</h1>
+        <h3>Donate to Help Those in Need</h3>
+        <div class="box">
+            <form action="">
+                <div class="a">
+                    <h3><i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                        </i>Personal Information</h3>
+                </div>
+                <div class="name">
+                    <div class="names">
+                        <h4>First Name</h4>
+                        <input type="text" name="name" class="x" required><i class=" fa fa-user icon " aria-hidden="
+                            true "></i>
+                    </div>
+                    <div class=" names ">
+                        <h4>Last Name</h4>
+                        <input type=" text " name=" lastname " class=" x " required><i class="fa fa-user icon" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="gender">
+                    <h4>Gender</h4>
+                    <input type="radio" id="a1" name="gender">
+                    <label for="a1">Male</label>
+                    <input type="radio" id="a2" name="gender">
+                    <label for="a2">Female</label>
+                </div>
+                <div class="adress">
+                    <div class="email">
+                        <h4>Email Address</h4>
+                        <input type="email" name="email" id="email" class="x" required><i class="fa fa-envelope icon" aria-hidden="true"></i>
+                    </div>
+                    <div class="mob">
+                        <h4>Mobile Number</h4>
+                        <input type="tel" name="phone" class="x" pattern="[0-9]{10}">
+                    </div>
+                </div>
+
+
+                <hr>
+                <h3 class="b"><i class="fa fa-credit-card" aria-hidden="true"></i>Payment Details</h3>
+
+                <div class="pay1">
+                    <div class="d">
+                        <h4>I want To Donate</h4>
+                        <input type="number" class="x"><i class=" fa fa-inr icon" aria-hidden="true"></i>
+                    </div>
+                    <div class="cardt">
+                        <h4>Card Type</h4>
+                        <select name=" cardtype " id="cardtype " class="x">
+                            <option value=" ">Select Cardtype</option>
+                            <option value="rupay ">Rupay</option>
+                            <option value="visa ">Visa</option>
+                            <option value="mastercard ">Master Card</option>
+                            <option value="creditcard ">PayPal</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="pay2">
+                    <div class="cardn">
+                        <h4>Card Number</h4>
+                        <input type="number " name="card " id="card " class="x"><i class="fa fa-credit-card icon" aria-hidden="true"></i>
+                    </div>
+                    <div class="cv">
+                        <h4>CVV</h4>
+                        <input type="password " name="cvv " id="cvv " class="x" required>
+                    </div>
+                </div>
+                <div class="ex">
+                    <h4>Expiration Date</h4>
+                    <input type="date " name="exp " id="exp " class="x" placeholder="MONTH"><input type="date " name="exp " id="exp " class="x" placeholder="YEAR">
+                </div>
+                <input class="donatebtn" type="submit" name="donate" value="DONATE">
+            </form>
+        </div>
+    </div>
+
+    <!--contact us-->
+    <div class="last">
+        <div class="contact" id="contact">
+            <h1>Contact</h1>
+
+            <div class="loc"><i class="fa fa-map-marker j" aria-hidden="true"></i>Mumbai,India</div>
+            <div class="phone"><i class="fa fa-phone j" aria-hidden="true"></i>Phone: +00 151515</div>
+            <div class="in"><i class="fa fa-envelope j" aria-hidden="true"></i>Email: rapidrescuehelpline@gmail.com</div>
+
+        </div>
+        <div class="query">
+            <h3>If you have any questions, do not hesitate to ask.</h3>
+        </div>
+        <div class="q">
+            <input class="n" type="text" required placeholder="Name">
+            <input class="m" type="email" placeholder="Email">
+            <input class="o" type="text" placeholder="Message">
+            <input class="sendmessage" type="submit" name="message" value="SEND MESSAGE">
+        </div>
+
+        <footer>
+            <div class="f">
+                <h3>Find Us On</h3>
+            </div>
+            <div class="finduson">
+                <i class="fa fa-facebook-official icons" aria-hidden="true"></i>
+                <div class="insta">
+                    <a href="https://instagram.com/rapidrescue323?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fa fa-instagram icons" aria-hidden="true"></i></a>
+
+
+                </div>
+
+                <i class="fa fa-pinterest-p icons" aria-hidden="true"></i>
+                <i class="fa fa-twitter icons" aria-hidden="true"></i>
+                <i class="fa fa-linkedin icons" aria-hidden="true"></i>
+            </div>
+            <div class="contain">
+                <p>&copy; 2023 RapidRescue. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js "></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbm7dLaKX4C4Ug8Kq2ndsFexbu1qaptvM&callback=initMap " async defer></script>
+    <script src="deu/script.js "></script>
+
+</body>
+
+</html>

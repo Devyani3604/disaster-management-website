@@ -1,0 +1,25 @@
+Home
+About Us
+Precautions
+Available Routes
+Available Hospitals
+Helpline Numbers
+Contact Us
+Home Page:
+
+"Welcome to RapidRescue - Your Disaster Management Resource."
+
+Man-made Disasters:
+
+1)Industrial Accidents: The Bhopal gas tragedy in 1984 resulted in thousands of deaths and injuries due to a gas leak.
+2)Oil Spills: The Deepwater Horizon oil spill in 2010 caused extensive environmental damage in the Gulf of Mexico.
+3)Hazardous Material Incidents: The Chernobyl nuclear disaster in 1986 released radioactive material, causing a significant impact on human health and the environment.
+4)Chemical Spills: The 2012 Costa Concordia disaster involved the cruise ship running aground and spilling fuel and chemicals into the ocean.
+5)Nuclear Accidents: The Fukushima nuclear disaster in 2011 led to widespread contamination and evacuations in Japan.
+6)Industrial Fires: The 2012 Ali Enterprises factory fire in Pakistan resulted in a large number of fatalities due to poor safety measures.
+7)Terrorism: The September 11, 2001, terrorist attacks in the USA caused significant loss of life and infrastructure damage.
+8)Cyber Attacks: Large-scale cyber attacks on critical infrastructure can disrupt services and cause economic harm.
+
+
+
+

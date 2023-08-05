@@ -1,0 +1,40 @@
+{
+    "disasters": [
+      {
+        "title": "Earthquake",
+        "description": "An earthquake is a sudden and violent shaking of the ground, often caused by the movement of tectonic plates beneath the Earth's surface.",
+        "precautions": [
+          "Identify safe spots in each room, such as under sturdy tables or against interior walls.",
+          "Secure heavy furniture and objects that could fall and cause injury.",
+          "Create an emergency kit with essential supplies, including food, water, and first aid.",
+          "Plan and practice an evacuation route with your family.",
+          "Learn and teach basic first aid techniques.",
+          "Stay away from windows, glass, and heavy objects during an earthquake.",
+          "If outdoors, move to an open area away from buildings, trees, and power lines.",
+          "After an earthquake, check for gas leaks, damaged electrical wires, and structural damage before reentering a building.",
+          "Be prepared for aftershocks, which are smaller earthquakes that can occur after the main earthquake.",
+          "Stay informed about earthquake preparedness and response strategies."
+        ],
+        "image": "https://images.unsplash.com/photo-1603869311144-66b03d340b32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=751&q=80"
+      },
+      {
+        "title": "Flood",
+        "description": "A flood is an overflow of water onto normally dry land, often caused by heavy rainfall, melting snow, or dam failure.",
+        "precautions": [
+          "Create an emergency plan and establish a safe meeting point for your family.",
+          "Monitor weather forecasts and be aware of flood warnings in your area.",
+          "Keep important documents and valuables in waterproof containers or bags.",
+          "Ensure proper drainage around your home by cleaning gutters and maintaining downspouts.",
+          "If flooding is imminent, turn off electricity and gas supplies to reduce the risk of electrical shock or gas leaks.",
+          "Avoid walking or driving through flooded areas.",
+          "Stay away from moving water and storm drains.",
+          "Follow evacuation orders and seek higher ground if necessary.",
+          "After a flood, be cautious of contaminated water, damaged roads, and weakened structures.",
+          "Contact your insurance provider to report any flood damage."
+        ],
+        "image": "https://images.unsplash.com/photo-1600336153113-d66c79de3e91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zmxvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=6"
+      }
+    
+    ]
+  }
+  
